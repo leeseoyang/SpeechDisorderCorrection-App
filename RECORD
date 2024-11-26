@@ -4,7 +4,7 @@ activity_main 음성 인식된 음성 출력 텍스트 구성
 
 # CT_002
 전체적인 기능 코드 수정 및 일치율 레이아웃 생성
-
+ 
 # CT_003
 dependencies과 dependencyResolutionManagement 선언 추가 및 MainActivity 수정
 
