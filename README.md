@@ -66,11 +66,6 @@ SpeechDisorderCorrection-App/
 ```
 
 ---
-완벽해! 지금 올려준 코드는 **안드로이드(Java) 기반 음성 장애 보정 앱의 `MainActivity` 전체 흐름**이야.
-이를 바탕으로 **실행 흐름 자동 설명용 문서**를 아래와 같이 만들어 줄게.
-이건 `README.md`에 그대로 붙여 넣을 수 있고, 발표/포트폴리오용으로도 깔끔하게 사용 가능해.
-
----
 
 ## 🔍 MainActivity 실행 흐름 설명 (Android)
 
