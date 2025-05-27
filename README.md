@@ -14,7 +14,6 @@
 
 - 🎤 실시간 음성 인식 (SpeechRecognition)
 - 🧠 음성 비교 → 정답 여부 판별
-- 🤖 발음 성공 시 Altino 로봇 반응 (ex. 전진, 회전 등)
 - 🗣️ 음성 피드백 (TTS로 음성 출력)
 - 💾 로그 저장 기능 (정답/오답 통계)
 
@@ -28,8 +27,7 @@
 | 언어       | Python 3.8 이상                           |
 | GUI        | PyQt5                                     |
 | 음성인식   | SpeechRecognition + Google Web API 사용   |
-| TTS        | pyttsx3 또는 gTTS                         |
-| 기타       | AltinoLite.py (시리얼 블루투스 제어)     |
+| TTS        | pyttsx3 또는 gTTS                         |   |
 
 ---
 
@@ -54,7 +52,6 @@ python main.py
 ```
 SpeechDisorderCorrection-App/
 ├── main.py                       # 앱 실행 진입점
-├── altino_controller.py         # Altino 블루투스 제어
 ├── speech_module.py             # 음성 인식 및 평가
 ├── ui/
 │   └── main_window.ui           # PyQt Designer UI
@@ -152,7 +149,6 @@ Firebase에 저장 + 토스트 메시지 출력
 * PyQt5
 * SpeechRecognition
 * pyttsx3 (또는 gTTS)
-* AltinoLite + 시리얼 통신
 
 ---
 
