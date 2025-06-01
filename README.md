@@ -1,11 +1,11 @@
-# 🗣️ Speech Disorder Correction App (PyQt5 기반)
+# 🗣️ Speech Disorder Correction App
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=flat&logo=qt&logoColor=white)
 ![SpeechRecognition](https://img.shields.io/badge/Speech_Recognition-FFAA00?style=flat)
 ![OfflineApp](https://img.shields.io/badge/Offline-Application-green)
 
-이 프로젝트는 **음성 인식 + TTS + Altino 로봇 연동**을 통해  
+이 프로젝트는 **음성 인식 + TTS**을 통해  
 **발음 재활 훈련**을 돕기 위한 **오프라인 음성 보정 지원 애플리케이션**입니다.
 
 ---
@@ -54,7 +54,7 @@ SpeechDisorderCorrection-App/
 ├── main.py                       # 앱 실행 진입점
 ├── speech_module.py             # 음성 인식 및 평가
 ├── ui/
-│   └── main_window.ui           # PyQt Designer UI
+│   └── main_window.ui           # Designer UI
 ├── images/
 │   ├── banner.jpg
 │   └── demo.jpg
@@ -118,35 +118,7 @@ Firebase에 저장 + 토스트 메시지 출력
 
 | 함수명 | 역할 |
 |--------|------|
-| `startSpeechRecognition()` | 음성 인식 시작 |
-| `onResults()` | 인식 결과 수신 |
-| `calculateEditDistance()` | 문자열 유사도 계산 |
-| `calculateSimilarity()` | 정확도(%) 계산 |
-| `saveLearningData()` | Firebase DB에 결과 저장 |
-| `compareResults()` | 전체 흐름 통합 |
-
----
-
-### 🛠 사용 기술 스택
-
-- Android SDK (Java)
-- Android SpeechRecognizer API
-- Firebase Realtime Database
-- 레벤슈타인 거리 기반 정확도 계산
-
----
-
-이 구조는 **음성 재활 훈련 앱**에서 사용자 발음의 정확도를 실시간으로 확인하고  
-피드백을 제공하며 학습 이력을 클라우드에 저장하는 데 최적화된 구조입니다.
-```
-
----
-
-
-## 🛠 사용 기술 스택
-
-* Python 3.8
-* PyQt5
+| `star오
 * SpeechRecognition
 * pyttsx3 (또는 gTTS)
 
